@@ -1,0 +1,45 @@
+all good
+val in dir needs to be: is there a line of others in this direction
+
+def find_next_in_dir_dist
+
+if space in dir is .
+	Done
+else if space is opp
+	continue
+else if space is yours
+	return V*mult + (x, y) but just the MULT
+
+def flip_in_dir
+	for i < mult
+		set i*V + (x, y) == val
+		
+
+def is_legal
+	Check boundaries for match	
+------------------------------------------------------------
+All above good :) Now:
+
+import/export board state
+b.get_legal_moves
+b.show_legal_moves
+
+bench done as well
+
+--------------------------------------
+Distance function is now perfect!!
+Gameplay rejects illegal moves!
+Then play a game with yourself! (Done)
+Remove legal check in play function
+getLegalDirs tuple in tuple with mult, no recalculation
+b.get_legal_moves
+b.show_legal_moves
+pass mechanic
+If pass twice, go to score
+
+Use sets if possible (for border addition/sub)	
+Set up for minimax!
+
+
+Bugs:
+- Fix player_move function

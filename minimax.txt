@@ -1,0 +1,21 @@
+new_board = board.copy()
+max = -inf
+for move in new_board.moves():
+	new_board.make_move(move)
+	score = -negamax()
+	max = max(score, max)
+	new_board.undo_move(move)
+return max
+
+
+new_board = board.copy()
+max = -inf
+best_move = None
+for move in new_board.moves():
+	new_board.make_move(move)
+	score = minmax()
+	if score > max
+		best_move = move
+		max = score
+	new_board.undo_move(move)
+return best_move

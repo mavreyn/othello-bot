@@ -1,0 +1,12 @@
+For finding end
+
+i=1
+for a direction
+	while pos+dir == opp
+		i++
+
+	# Then it becomes not
+	if pos+i*dir is self
+		return i
+	else
+		return None
